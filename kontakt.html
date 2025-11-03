@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt - Victim Blaming Stop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Victim Blaming Stop</a>
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Strona Główna</a>
+        <a href="o-projekcie.html" class="nav-link">O Projekcie</a>
+        <a href="edukacja.html" class="nav-link">Edukacja</a>
+        <a href="zasoby.html" class="nav-link">Zasoby</a>
+        <a href="kontakt.html" class="nav-link active">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>Kontakt</h1>
+    <p>Skontaktuj się z nami i dołącz do naszej kampanii</p>
+  </section>
+
+  <section class="contact-info">
+    <h2>Dane kontaktowe</h2>
+    <div class="contact-details">
+      <div class="contact-item">
+        <h3>📧 Email</h3>
+          <p>majakubis2000@gmail.com</p>
+          <p>muszynskaa17@gmail.com</p>
+      </div>
+      <div class="contact-item">
+        <h3>📍 Adres</h3>
+        <p>Pulawy, Polska</p>
+      </div>
+      <div class="contact-item">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-form-section">
+    <h2>Wyślij wiadomość</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Twoje imię" required />
+      <input type="email" id="email" placeholder="Twój email" required />
+      <select id="subject" required>
+        <option value="">Wybierz temat</option>
+        <option value="volunteer">Wolontariat</option>
+        <option value="ambassador">Ambasador w szkole</option>
+        <option value="cooperation">Współpraca</option>
+        <option value="question">Pytanie</option>
+        <option value="other">Inne</option>
+      </select>
+      <textarea id="message" rows="4" placeholder="Twoja wiadomość..." required></textarea>
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <section class="join-us"><!-- Miejsce rozwojowe, tzn. w przyszlosci mozna dodac opcje do dolaczenia -->
+    <h2>Dołącz do naszej kampanii</h2>
+    <div class="join-options">
+      <div class="join-option">
+        <h3>Wolontariat</h3>
+        <p>Pomagaj w organizacji warsztatów i akcji ulicznych.</p>
+        <button class="join-btn" data-type="volunteer">Zgłoś się</button>
+      </div>
+      <div class="join-option">
+        <h3>Ambasador w szkole</h3>
+        <p>Przeprowadź warsztaty w swojej szkole lub uczelni.</p>
+        <button class="join-btn" data-type="ambassador">Zgłoś się</button>
+      </div>
+      <div class="join-option">
+        <h3>Współpraca</h3>
+        <p>Jesteś organizacją? Zapraszamy do współpracy!</p>
+        <button class="join-btn" data-type="cooperation">Skontaktuj się</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="back-to-home">
+    <a href="index.html" class="back-btn">← Powrót do strony głównej</a>
+  </div>
+ <section class="authors">
+    <h2>Autorzy projektu</h2>
+    <div class="authors-container">
+      <div class="author">
+        <h3>Maja Kubiś</h3>
+      </div>
+      <div class="author">
+        <h3>Aleksandra Muszyńska</h3>
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Zespół projektu „Victim Blaming Stop” | Zwolnieni z Teorii</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
